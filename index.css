@@ -1,0 +1,38 @@
+/* this for just the title bar */
+.title-bar{
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    padding: 10px;
+    color: white;
+}
+/* this is for container one  */
+.first-container{
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/istockphoto-603310486-612x612.jpg);
+}
+.menue{
+    position: absolute ;
+    width: 100%;
+    height: 30px;
+}
+.elements{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 20%;
+
+}
+.logo{
+    position: absolute;
+    margin-left: 10%;
+    top: -26px;
+    color: white;
+}
